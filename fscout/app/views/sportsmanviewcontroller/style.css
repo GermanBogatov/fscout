@@ -1,0 +1,543 @@
+
+  
+.menu{
+    margin: 0 auto;
+  display: flex;
+    width: 700px;
+    height: 80px;
+    background-color: none;
+    justify-content: space-between;
+    
+
+}
+
+.myprofile{
+   margin: 20px 0px;
+    width: 200px;
+    height: 40px;
+    float: left; 
+    background-color: none;
+   
+    text-align: center;
+}
+.myvideo{
+    
+    margin: 20px 0px;
+    width: 200px;
+    height: 40px; 
+    float: left;
+    background-color: none;
+    
+    text-align: center;
+}
+.invite{
+   
+    margin: 20px 0px;
+    width: 200px;
+    height: 40px; 
+    float: left;
+    background-color:  none;
+    
+    text-align: center;
+}
+
+.menu input[type="Button" ][name="MyProfile"] {
+     
+  display: inline-block;
+ padding: 10px;
+ background:#c5c5c5;
+
+ outline: none;
+ border-radius: 25px;
+ border-style:  none;
+ font-size: 15px;
+ color: rgb(0, 0, 0);
+font-weight: bold;
+width:100%;
+}
+
+input[type="Button"][name="MyProfile"]:hover{ background: linear-gradient(#c5c5c5, #c5c5c5) #c5c5c5; color: black}
+input[type="Button"][name="MyProfile"]:active{background: linear-gradient(#3d3d3c, #3d3d3c) #3d3d3c;}
+
+.menu input[type="Button" ][name="Invite"] {
+     
+  display: inline-block;
+ padding: 10px;
+ background:#252627;
+
+ outline: none;
+ border-radius: 25px;
+ border-style:  none;
+ font-size: 15px;
+ color: rgb(255, 255, 255);
+font-weight: bold;
+width:100%;
+}
+
+input[type="Button"][name="Invite"]:hover{ background: linear-gradient(#c5c5c5, #c5c5c5) #c5c5c5; color: black}
+input[type="Button"][name="Invite"]:active{background: linear-gradient(#3d3d3c, #3d3d3c) #3d3d3c;}
+
+.menu input[type="Button" ][name="MyVideo"] {
+     
+  display: inline-block;
+ padding: 10px;
+ background:#252627;
+
+ outline: none;
+ border-radius: 25px;
+ border-style:  none;
+ font-size: 15px;
+ color: rgb(255, 255, 255);
+font-weight: bold;
+width:100%;
+
+
+}
+
+input[type="Button"][name="MyVideo"]:hover{ background: linear-gradient(#c5c5c5, #c5c5c5) #c5c5c5; color: black}
+input[type="Button"][name="MyVideo"]:active{background: linear-gradient(#3d3d3c, #3d3d3c) #3d3d3c;}
+
+
+
+
+.main{
+  margin:0 auto;
+  width: 1000px;
+  height: auto;
+  overflow: auto;
+  display: flex;
+}
+
+.main .Worksheet{
+    width:1000px;
+    height: 580px;
+    display: flex;
+    background-color:#252627 ;
+}
+
+
+
+.main .Worksheet .leftblock{
+  width:200px;
+  height: 280px;
+  margin-top: 20px;
+  float: left;
+ 
+  
+    align-items: center;
+}
+
+
+
+
+.main .Worksheet .leftblock  .photoblock{
+  width:170px;
+    height: 200px;
+    margin: 0px auto;
+align-items: center;
+   
+    
+    display: flex;
+}
+
+.main .Worksheet .leftblock  .photoblock img{
+ border-radius: 1%
+}
+
+.main .Worksheet .leftblock  .buttonblock .uploadphoto{
+  width:150px;
+    height: 40px;
+    background-color:#0a65c0 ;
+align-items: center;
+    margin: 0 auto;
+    
+    display: flex;
+}
+
+.main .Worksheet .leftblock  .buttonblock .Submit{
+  width:100px;
+    height: 40px;
+    background-color:#0a65c0 ;
+align-items: center;
+    margin: 0 auto;
+   padding: 15px;
+background:rgb(0, 189, 247);
+  border-color:#097fce;
+border-radius: 10px;
+  font-size: 15px;
+  color: white;
+ font-weight: bold;
+width:60%;
+    display: flex;
+}
+ 
+
+   
+
+
+
+ 
+
+
+.main .Worksheet .rightblock{
+  width:800px;
+  height: 580px;
+  
+  float: left;
+  
+  background-color: none;
+}
+
+.main .Worksheet .rightblock .firstblock{
+height: 40px;
+width: 740px;
+background-color: none;
+margin: 0 auto;
+margin-top:20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.main .Worksheet .rightblock .secondblock{
+  height: 40px;
+  width: 740px;
+  background-color: none;
+  margin: 0 auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  }
+  .main .Worksheet .rightblock .thirdblock{
+    height: 40px;
+    width: 740px;
+    background-color: none;
+    margin: 0 auto;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    }
+    .main .Worksheet .rightblock .fourthblock{
+      height: 40px;
+      width: 740px;
+      background-color: none;
+      margin: 0 auto;
+      margin-top:20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     
+      }
+      .main .Worksheet .rightblock .fifthblock{
+        height: 40px;
+        width: 740px;
+        background-color: none;
+        margin: 0 auto;
+        margin-top:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        }
+.main .Worksheet .rightblock .sixthoneblock{
+          height: 40px;
+          width: 740px;
+          background-color: none;
+          margin: 0 auto;
+          margin-top:20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+         
+          }
+        .main .Worksheet .rightblock .sixthblock{
+          height: 40px;
+          width: 740px;
+          background-color: none;
+          margin: 0 auto;
+          margin-top:20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+         
+          }
+
+          .main .Worksheet .rightblock .seventhblock{
+            height: 40px;
+            width: 740px;
+            background-color: none;
+            margin: 0 auto;
+            margin-top:45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+            }
+            .main .Worksheet .rightblock .buttonblock{
+              height: 40px;
+              width: 740px;
+              background-color: none;
+              margin: 0 auto;
+              margin-top:40px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+             
+              }
+
+.main .Worksheet .rightblock input[type="FirstName"], [type="SecondName"], [type="Phone"], [type="Email"], [type="Country"], [type="date"], [type="City"], [type="State"], [type="Password"], [type="Confirmpassword"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+ width:300px;
+}
+.main .Worksheet .rightblock input[type="Gender"], [type="Height"], [type="Weight"], [type="Strongleg"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+width:140px;
+}
+.main .Worksheet .rightblock select[type="Gender"],[type="Strongleg"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+width:140px;
+}
+.main .Worksheet .rightblock input[type="Address"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+width:530px;
+}
+.main .Worksheet .rightblock input[type="Academy"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+width:740px;
+}
+.main .Worksheet .rightblock input[type="Submit"]{
+  margin: 0 auto;
+   
+padding: 15px;
+background:rgb(0, 189, 247);
+  border-color:#097fce;
+border-radius: 10px;
+  font-size: 15px;
+  color: white;
+ font-weight: bold;
+width:60%;
+}
+
+
+
+
+
+
+
+
+.mynews{
+    
+    margin: 20px 0px;
+    width: 200px;
+    height: 40px; 
+    float: left;
+    background-color: none;
+    
+    text-align: center;
+}
+.menu input[type="Button" ][name="MyNews"] {
+     
+  display: inline-block;
+ padding: 10px;
+ background:#252627;
+
+ outline: none;
+ border-radius: 25px;
+ border-style:  none;
+ font-size: 15px;
+ color: white;
+font-weight: bold;
+width:100%;
+
+
+}
+
+input[type="Button"][name="MyNews"]:hover{ background: linear-gradient(#c5c5c5, #c5c5c5) #c5c5c5; color: black}
+input[type="Button"][name="MyNews"]:active{background: linear-gradient(#3d3d3c, #3d3d3c) #3d3d3c;}
+
+
+
+
+.main .Worksheet .rightblock .firstblock{
+height: 40px;
+width: 740px;
+background-color: none;
+margin: 0 auto;
+margin-top:20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.main .Worksheet .rightblock .secondblock{
+  height: 40px;
+  width: 740px;
+  background-color: none;
+  margin: 0 auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  }
+  .main .Worksheet .rightblock .thirdblock{
+    height: 40px;
+    width: 740px;
+    background-color: none;
+    margin: 0 auto;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    }
+    .main .Worksheet .rightblock .fourthblock{
+      height: 40px;
+      width: 740px;
+      background-color: none;
+      margin: 0 auto;
+      margin-top:20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     
+      }
+      .main .Worksheet .rightblock .fifthblock{
+        height: 40px;
+        width: 740px;
+        background-color: none;
+        margin: 0 auto;
+        margin-top:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        }
+
+        .main .Worksheet .rightblock .sixthblock{
+          height: 40px;
+          width: 740px;
+          background-color: none;
+          margin: 0 auto;
+          margin-top:20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+         
+          }
+
+          .main .Worksheet .rightblock .seventhblock{
+            height: 40px;
+            width: 740px;
+            background-color: none;
+            margin: 0 auto;
+            margin-top:30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+            }
+            .main .Worksheet .rightblock .tenblock{
+                height: 40px;
+                width: 740px;
+                background-color: none;
+                margin: 0 auto;
+                margin-top:20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+               
+                }
+            .main .Worksheet .rightblock .buttonblock{
+              height: 35px;
+              width: 740px;
+              background-color: none;
+              margin: 0 auto;
+              margin-top:35px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+             
+              }
+
+.main .Worksheet .rightblock input[type="FirstName"], [type="SecondName"], [type="Phone"], [type="Email"], [type="VATnumber"], [type="Zipcode"], [type="City"], [type="State"], [type="Password"], [type="Confirmpassword"], [type="Passport"], [type="Gender"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+ width:300px;
+}
+
+.main .Worksheet .rightblock input[type="Company"],[type="Addresscompany"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:transparent;
+width:740px;
+}
+.main .Worksheet .rightblock input[type="Button"]{
+  margin: 0 auto;
+   
+padding: 15px;
+background:rgb(0, 189, 247);
+  border-color:#097fce;
+border-radius: 10px;
+  font-size: 15px;
+  color: white;
+ font-weight: bold;
+width:60%;
+}
+
+
+.mx-auto .form-group  input [type="date"], [type="text"]
+{
+  margin: 7px ; 
+  border: 2px solid;	 
+padding: 9px;
+background:white;
+  border-radius: 10px;
+border-color:black;
+ width:300px;
+}
+
+label{
+    color:black;
+}

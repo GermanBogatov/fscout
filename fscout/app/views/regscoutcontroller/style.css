@@ -1,0 +1,109 @@
+body 
+{ width: 100%; height: 100%; 
+  background-color: #18191A; 
+  color: white; 
+ margin: 0;
+   height: 100vh;
+   width: 100%;
+   }
+
+   
+   .leftside{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    text-align	: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+  }
+
+  .leftside > img{
+      width: 40%;
+      height: autoS;
+  }
+  
+  
+  .rightside{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    text-align	: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+
+ 
+
+.registration{
+    width: 481px;
+    height: 820px;
+   
+    margin: auto;
+      
+     border: 2px solid;	 
+     border-radius: 30px;
+	 padding: 7px;
+	 background:#000000;
+     border-color:transparent;
+
+}
+
+.inputsectionScout{
+    margin: 25px auto;
+    
+}
+.Scoutinformation{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.inputsectionOrganization{
+    margin: 25px auto;
+    
+}
+
+.Organizationinformation{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.registration input[type="FirstName"], [type="SecondName"], [type="Phone"], [type="Email"], [type="Password"], [type="ConfirmPassword"]{
+     
+	 margin: 4px ; 
+     border: 2px solid;	 
+	 padding: 6px;
+	 background:white;
+     border-radius: 10px;
+	 border-color:transparent;
+ 	 width:80%;
+
+}
+
+.registration input[type="FirstName"], [type="SecondName"], [type="Phone"], [type="Email"], [type="Password"], [type="ConfirmPassword"], [type="NameOrganization"], [type="Address"], [type="City"], [type="StateProvince"], [type="Zipcode"], [type="Country"], [type="VATnumber"]{
+     
+    margin: 3px ; 
+    border: 2px solid;	 
+    padding: 6px;
+    background:white;
+    border-radius: 10px;
+    border-color:transparent;
+     width:80%;
+
+}
+
+
+.registration input[type="submit"]{
+     
+      
+	 padding: 13px;
+	 background:rgb(0, 189, 247);
+     border-color:#097fce;
+	 border-radius: 10px;
+     font-size: 15px;
+     color: white;
+    font-weight: bold;
+	width:60%;
+}

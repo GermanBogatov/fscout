@@ -1,0 +1,87 @@
+body 
+{ width: 100%; height: 100%; 
+  background-color: #18191A; 
+  color: white; 
+ margin: 0;
+   height: 100vh;
+   width: 100%;
+  
+   }
+
+   
+   .leftside{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    text-align	: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+  }
+
+  .leftside > img{
+    width: 40%;
+    height: autoS;
+}
+  
+  
+  .rightside{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    text-align	: center;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+
+ 
+
+.registration{
+    width: 481px;
+    height: 500px;
+   
+    margin: auto;
+     
+     border: 2px solid;	 
+     border-radius: 30px;
+	 padding: 7px;
+	 background:#000000;
+     border-color:transparent;
+
+}
+
+.inputsection{
+    margin: 20px auto;
+    
+}
+
+.registration input[type="FirstName"], [type="SecondName"], [type="Phone"], [type="Email"], [type="Password"], [type="ConfirmPassword"]{
+     
+	 margin: 7px ; 
+     border: 2px solid;	 
+	 padding: 9px;
+	 background:white;
+     border-radius: 10px;
+	 border-color:transparent;
+ 	 width:85%;
+
+}
+
+
+
+
+.registration input[type="submit"]
+{
+
+     
+	 padding: 15px;
+	 background:rgb(0, 189, 247);
+     border-color:#097fce;
+	 border-radius: 10px;
+     font-size: 15px;
+     color: white;
+    font-weight: bold;
+	width:60%;
+}

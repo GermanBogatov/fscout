@@ -1,0 +1,82 @@
+body 
+{ width: 100%; height: 100%; 
+  background-color: #000000; 
+  color: white; 
+ margin: 0;
+   height: 100vh;
+   width: 100%;
+  
+   }
+
+   
+   .header
+   {
+     width: 100%;
+     height: 56px;
+     justify-content: space-between;
+   background-color:  #000000;
+   color: white;
+   margin: 0%;
+   text-align: center;
+   display: flex;
+   
+   }
+   
+   .leftlogo > img{
+   
+    height: 56px;
+}
+   .header .leftlogo{
+       float: left;
+height: 56px;
+width: 250px;
+   }
+
+   .header .headermenu{
+float: left;
+height: 56px;
+width: 310px;
+}
+.header .rightmenu{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    float: left;
+height: 56px;
+width: 250px;
+margin-right: 25px;
+justify-content: space-between;
+}
+
+.rightmenu input[type="Button"]{
+     
+    display: inline-block;
+   padding: 10px;
+   background:#00c3ff;
+  
+   outline: none;
+   border-radius: 25px;
+   border-style:  none;
+   font-size: 15px;
+   color: white;
+  font-weight: bold;
+  width:120px;
+  
+  
+}
+
+  .video{
+      width: 100%;
+     
+      
+      
+
+  }
+.video_media{
+    
+    width: 100%;
+    height: 100%;
+}
+
+input[type="Button"]:hover{ background: linear-gradient(#ffffff, #c5c5c5) #5c5b5b; color: black}
+input[type="Button"]:active{background: linear-gradient(#3d3d3c, #3d3d3c) #3d3d3c;}
